@@ -1,22 +1,19 @@
 class MarkDown {
-    static generateReadme (answers) {
-        return 
-        `
-        # Title 
-        ${answers.firstname},
 
-        # Main section
-        ${answers.lastname}
+    static generateReadme(answers) {
+        return `
+# Title 
+${answers.name1}
 
-        ## Table of Contents
-        - [Cellphone number](#Cellphone number)
-        - [E Mail](#e Mail address)
-        - [User Bio](#User Bio)
+# Main section
+${answers.name2}
 
-        ## Cellphone Number
-        ${answers.cellphone}
+## Table of Contents
+* [Cellphone-number](#Cellphone-number)
 
-        `
+### Cellphone Number
+${answers.cellphone}   
+    `
     }
 }
 

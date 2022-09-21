@@ -1,6 +1,6 @@
-const inquirer = require('inquirer');
-const fs = require("fs")
-const MarkDown = require("./library/ReadmeGen")
+const inquirer = require('inquirer')
+const fs = require('fs')
+const MarkDown = require("./library/ReadmeGen.js")
 
 const questions = (
   [
@@ -22,19 +22,7 @@ const questions = (
         name: "cellphone",
         message: "What is your cellphone number?",
         default: ""
-    },
-    {
-      type: "input",
-      name: "user_email",
-      message: "What is your user e-mail address?",
-      default: ""
-    },
-    {
-      type: 'input',
-      name: 'userbio',
-      message: 'Please write a short bio or maximum 450 characters.',
-      default: ""
-    },
+    }
   ])
     
   // run query function //
@@ -44,12 +32,17 @@ const questions = (
     // Use user feedback for... whatever!!
     return inquirer.prompt(questions)
     .then((answers) => {
-    
+
       const mark = MarkDown.generateReadme(answers)
+      // const data = JSON.stringify(mark)
+
+      console.log(answers)
+      // console.log(mark)
+
       fs.writeFile("README.md", mark, function(err) {
         if (err) {
           console.log("Could not create and save README file as expected", err)
-        } else {console.log("Success")}
+        } else {console.log("Success - you new README.md file was generated!")}
       })
     })
     
