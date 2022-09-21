@@ -42,7 +42,7 @@ const questions = (
       fs.writeFile("README.md", mark, function(err) {
         if (err) {
           console.log("Could not create and save README file as expected", err)
-        } else {console.log("Success - you new README.md file was generated!")}
+        } else {console.log("Success - the new README.md file was generated!")}
       })
     })
     
