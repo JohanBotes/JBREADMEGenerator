@@ -1,0 +1,15 @@
+{
+  "name": "jbreadmegenerator",
+  "version": "1.0.0",
+  "description": "JohanBotes README.md file generator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": ""
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
