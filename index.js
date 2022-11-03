@@ -10,7 +10,7 @@ const questions = (
         type: "input",
         name: "projecttitle",
         message: "What is the Project Title?",
-        default: "README.MD Generator App",
+        default: "Professional automated README.MD Generator App",
         validate: function (answer) {
             if (answer.length < 10) {
                 return console.log("....| The project title must have minimum 10 characters");
@@ -22,7 +22,7 @@ const questions = (
         type: "input",
         name: "projectdescription",
         message: "What does your Application do? Please provide a clear Project Description?",
-        default: "Develop an App to automate the creation of a uniform best practice README.MD file",
+        default: "Develop an App that automates the creation of a professional uniform best practice README.MD file for all future projects",
         validate: function (answer) {
           if (answer.length < 10) {
               return console.log(".... | A project description of 10 characters and more are required");
@@ -34,7 +34,7 @@ const questions = (
         type: "input",
         name: "usage",
         message: "Write a short paragraph describing the PURPOSE of your project?",
-        default: "(1) Save time, (2) Standardized layout, (3) Comprehensive list of questions to ensure completeness of the README.MD file",
+        default: "The purpose of the App is to (1) Save time by not having to perform mundane tasks over and over, (2) Standardized the README.md file layouts, and to (3) Maintain a comprehensive complete list of questions to ensure completeness of the README.MD file",
         validate: function (answer) {
           if (answer.length < 10) {
               return console.log(".... | The project PURPOSE write-up requires 10 characters and more.");
@@ -52,15 +52,15 @@ const questions = (
     {
         type: "checkbox",
         name: "technologystack",
-        message: "What technologies, software are required and/or optional to complete the project successfully?",
-        choices: ["Node.js", "Express.js", "React.js", "MySQL", "MongoDB", "Heroku", "GitHub", "VS Code", "Postman", "Insomnia", "JavaScript", "TypeScript", "C#", ".NET"],
-        default: ["Node.js", " Express.js"],
+        message: "What technologies, platforms and/or software are required and/or optional to complete the Project successfully?",
+        choices: ["Node.js", "Express.js", "React.js", "MySQL", "MongoDB", "Heroku", "GitHub", "VS Code", "Postman", "Insomnia", "JavaScript", "TypeScript", "C#", ".NET", "Celigo PaaS", "xRP Platform", "Other"],
+        default: ["Node.js", " Express.js", "Celigo PaaS", "xRP Platform"],
     },
     {
         type: "input",
         name: "installation",
         message: "Provide the exact step-by-step installation instructions, chronology and further explanations?",
-        default: "(1) Download the technology required into a new folder, (2) Install the technology, (3) Run the app with the provided commands",
+        default: "(1) Download the technology and/or software required into a new folder, (2) Install the software technology, (3) Run the app with the provided commands in VS Code using Node.js and Express.js",
         validate: function (answer) {
           if (answer.length < 10) {
               return console.log("A valid GitHub username is required.");
@@ -71,7 +71,7 @@ const questions = (
     {
       type: "list",
       name: "estimatedprojectduration",
-      message: "Duration: What is the estimated Project duration from start to completion?",
+      message: "What is the estimated Project duration from start to completion?",
       choices: ["Duration <= 1 month", "Duration <= 3 months", "Duration <= 6 months", "Duration <= 1 year", "Duration > 1 year"],
       default: "Duration <= 1 month"
     },
@@ -87,13 +87,13 @@ const questions = (
       type: "input",
       name: "contributing",
       message: "Contributors names and their contribution details?",
-      default: "Johan Botes"
+      default: "Wynand Botes, Dane Edwards, and the rest of the team",
     },
     {
       type: "input",
       name: "tests",
-      message: "Provide clear concise instructions on how to conduct app testing, and the technologies to be used?",
-      default: "Jest"
+      message: "Provide clear concise instructions on 'How to conduct app testing', and the technologies to be deployed?",
+      default: "Jest > User acceptance testing, default testing, and unit testing",
     },
     {
       type: "input",
@@ -102,7 +102,7 @@ const questions = (
       default: "",
       validate: function (answer) {
         if (answer.length < 10) {
-            return console.log("....| The project title must have minimum 10 characters");
+            return console.log("....| If you have no questions, please enter 'Not Applicable' - The answer must have minimum 10 characters");
         }
         return true;
     }
