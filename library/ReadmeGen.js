@@ -49,7 +49,7 @@ ${answers.tests}
 ### Questions
 ${answers.questions}
 
-You can also reach the repository owener (Conact name below) at the following: 
+You can also reach the repository owner (Contact name below) at the following: 
 - E-mail: ${answers.contactemail} or
 - Cellphone:  ${answers.contactcellphone} or 
 - GitHub username:  ${answers.githubusername}
