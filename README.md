@@ -1,10 +1,10 @@
 
 # Project Title 
-README.MD Generator App 
+Professional automated README.MD Generator App 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 # Project Description
-Develop an App to automate the creation of a uniform best practice README.MD file
+Develop an App that automates the creation of a professional uniform best practice README.MD file for all future projects
 
 ## Table of Contents
 * [Usage](#Usage)
@@ -19,32 +19,32 @@ Develop an App to automate the creation of a uniform best practice README.MD fil
 * [Contact Name](#Contact-Name)
 
 ### Usage
-(1) Save time, (2) Standardized layout, (3) Comprehensive list of questions to ensure completeness of the README.MD file
+The purpose of the App is to (1) Save time by not having to perform mundane tasks over and over, (2) Standardized the README.md file layouts, and to (3) Maintain a comprehensive complete list of questions to ensure completeness of the README.MD file
 
 ### Industry
-Finance,Software Development
+Finance,Distribution,Software Development,Consulting
 
 ### Technology Stack
-
+Node.js,Express.js,React.js,Heroku,GitHub,VS Code,JavaScript,Celigo PaaS,xRP Platform
 
 ### Installation
-(1) Download the technology required into a new folder, (2) Install the technology, (3) Run the app with the provided commands
+(1) Download the technology and/or software required into a new folder, (2) Install the software technology, (3) Run the app with the provided commands in VS Code using Node.js and Express.js
 
 ### Estimated Project Duration
-Duration <= 1 month
+Duration <= 3 months
 
 ### License
 This repository is released under the MIT License. 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ### Contributing
-Wynand Botes 
+Wynand Botes, Dane Edwards, and the rest of the team
 
 ### Tests
-Jest
+Jest > User acceptance testing, default testing, and unit testing
 
 ### Questions
-No questions at this stage.
+Not Applicable
 
 You can also reach the repository owener (Conact name below) at the following: 
 - E-mail: johan.botes@udexx.com or
