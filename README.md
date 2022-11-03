@@ -9,7 +9,7 @@ Develop an App that automates the creation of a professional uniform best practi
 ## Table of Contents
 * [Usage](#Usage)
 * [Industry](#Industry)
-* [Technology Stack](#Technology-Stack)
+* [Technology](#Technology)
 * [Installation](#Installation)
 * [Estimated Project Duration](#Estimated-Project-Duration)
 * [License](#License)
@@ -22,10 +22,10 @@ Develop an App that automates the creation of a professional uniform best practi
 The purpose of the App is to (1) Save time by not having to perform mundane tasks over and over, (2) Standardized the README.md file layouts, and to (3) Maintain a comprehensive complete list of questions to ensure completeness of the README.MD file
 
 ### Industry
-Finance,Distribution,Software Development,Consulting
+Finance, Banking, Consulting, Service Management
 
-### Technology Stack
-Node.js,Express.js,React.js,Heroku,GitHub,VS Code,JavaScript,Celigo PaaS,xRP Platform
+### Technology
+Node.js, Express.js, VS Code
 
 ### Installation
 (1) Download the technology and/or software required into a new folder, (2) Install the software technology, (3) Run the app with the provided commands in VS Code using Node.js and Express.js
@@ -46,7 +46,7 @@ Jest > User acceptance testing, default testing, and unit testing
 ### Questions
 Not Applicable
 
-You can also reach the repository owener (Conact name below) at the following: 
+You can also reach the repository owner (Contact name below) at the following: 
 - E-mail: johan.botes@udexx.com or
 - Cellphone:  +1 (217) 518-2138 or 
 - GitHub username:  [JohanBotes](https://github.com/JohanBotes/)

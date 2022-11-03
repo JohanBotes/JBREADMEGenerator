@@ -12,7 +12,7 @@ ${answers.projectdescription}
 ## Table of Contents
 * [Usage](#Usage)
 * [Industry](#Industry)
-* [Technology Stack](#Technology-Stack)
+* [Technology](#Technology)
 * [Installation](#Installation)
 * [Estimated Project Duration](#Estimated-Project-Duration)
 * [License](#License)
@@ -27,8 +27,8 @@ ${answers.usage}
 ### Industry
 ${answers.industry}
 
-### Technology Stack
-${answers.technologystack}
+### Technology
+${answers.technology}
 
 ### Installation
 ${answers.installation}
